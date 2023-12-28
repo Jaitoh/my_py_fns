@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "my_py_fns"
+version = "0.0.1"
+authors = [
+  { name="Wenjie He", email="heyvinci@outlook.com"},
+]
+description = "A collection of my python functions."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+        "torch>=1.6.0",
+        "albumentations>=1.1.0",
+        "matplotlib>=3.5.1",
+        "numpy>=1.21.6",
+        "nvidia-ml-py3",
+    ]
+
+[project.urls]
+"Homepage" = "https://github.com/Jaitoh/my_py_fns"
